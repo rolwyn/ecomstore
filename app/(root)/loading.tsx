@@ -3,7 +3,7 @@ import loader from '@/assets/loader.gif'
 
 const LoadingPage = () => {
   return <div 
-    className='flex justify-center items-center h-screen w-screen'
+    className='flex justify-center items-center h-screen'
   >
     <Image src={loader} height={150} width={150} alt='Loading'></Image>
   </div>;
